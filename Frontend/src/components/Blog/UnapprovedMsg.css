@@ -1,0 +1,44 @@
+.unapproved-message-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center the message box vertically and horizontally */
+    background-color: #f1f1f1; /* Light gray background for the whole page */
+    padding: 20px;
+}
+
+.unapproved-message{
+    position: relative;
+    top: -1;
+    background-color:#fff;
+    border:1px solid #ddd;
+    padding:20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1rem;
+    color:#555;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-top:10px; */
+    border-radius: 4px;
+    /* z-index: 100; */
+    
+}
+.unapproved-message p{
+    margin:0;
+    font-size: 0.91rem;
+    margin-bottom:10px;
+    text-align: left;
+}
+.unapproved-message a{
+    display: block;
+    text-align: left;
+
+    color:#0073aa;
+    text-decoration: none;
+    font-size: 0.9rem;
+
+}
+.unapproved-message a:hover{
+    text-decoration: underline;
+}

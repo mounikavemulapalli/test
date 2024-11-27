@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.footer {
+  padding: 53px 80px 31px;
+  background: #5a40c4;
+  font-family: "DM Sans", sans-serif;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-card {
+  text-align: left;
+}
+
+.nav-logo img {
+  width: 190px;
+}
+
+.social-media-icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icons a {
+  margin-left: 24px;
+}
+
+.footer-card h3 {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+  margin-bottom: 20px;
+}
+
+.footer-card li {
+  list-style: none;
+  margin-top: 7px;
+}
+
+.footer-card li:first-of-type {
+  margin-top: 0;
+}
+
+.footer-card li a {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.64px;
+  text-decoration-line: none;
+}
+
+.application-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.application-links img {
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-bottom h4,
+.footer-bottom h4 span,
+.footer-bottom h4 span a {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.64px;
+  margin-bottom: 42px;
+  text-decoration-line: none;
+}
+
+.footer-bottom h4 span {
+  margin-left: 36px;
+}
+
+.footer-bottom img {
+  width: 100%;
+}
+
+.footer-bottom p {
+  color: rgb(255 255 255 / 0.6);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.56px;
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .footer {
+    padding: 53px 15px 31px;
+    background: #5a40c4;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .footer-list {
+    flex-wrap: wrap;
+  }
+  #footer-card-with-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .footer-card {
+    width: 25%;
+    margin-bottom: 40px;
+  }
+
+  #footer-card-with-applinks {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-card:last-of-type {
+    margin-bottom: 0;
+  }
+  .application-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+}
+
+@media only screen and (max-width: 550px) {
+    .footer {
+        padding: 35px 25px 31px;
+        background: #5a40c4;
+    }
+    .footer-card {
+        width: 50%;
+    }
+    .application-links img {
+        width: 94%;
+    }
+}
+

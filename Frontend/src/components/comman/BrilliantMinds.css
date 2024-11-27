@@ -1,0 +1,154 @@
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.prev {
+  left: 8%;
+}
+
+.next {
+  right: 8%;
+}
+
+/*                           Brilliant Minds Styles */
+.super-brilliant-minds {
+  width: 100%;
+  background: #e9dfdf;
+  padding: 1rem 0;
+}
+
+.super-brilliant-minds h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  text-align: center;
+  color: darkblue;
+}
+
+.super-brilliant-minds h1 span {
+  font-weight: 400;
+}
+
+.super-brilliant-minds-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.super-brilliant-minds-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.super-brilliant-minds-cards {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+}
+
+.super-brilliant-minds-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.super-brilliant-minds-card {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+  margin: 0 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  scroll-snap-align: start;
+}
+
+.super-brilliant-minds-card-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.super-brilliant-minds-card-content {
+  width: 90%;
+  margin: 1.5rem auto;
+  line-height: 30px;
+}
+
+.super-brilliant-minds-card-content h3 {
+  font-size: 1.2rem;
+  color: darkblue;
+}
+
+.super-brilliant-minds-card-content p {
+  font-size: 1rem;
+  margin: 0;
+  color: darkblue;
+}
+
+/*                            Media Queries for responsiveness ( 1024px )*/
+@media (max-width: 1024px) {
+  .super-brilliant-minds-card {
+    width: 40%;
+  }
+
+  .super-brilliant-minds-card-image img {
+    width: 300px;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 768px )*/
+@media (max-width: 768px) {
+  .super-brilliant-minds-card {
+    width: 60%;
+  }
+
+  .super-brilliant-minds h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 480px )*/
+@media (max-width: 480px) {
+  .prev {
+    left: 0%;
+  }
+  .next {
+    right: 0%;
+  }
+
+  .super-brilliant-minds h1 {
+    font-size: 1.25rem;
+    padding: 0 10px;
+  }
+
+  .super-brilliant-minds-cards {
+    width: 90%;
+    gap: 0;
+  }
+
+  .super-brilliant-minds-card {
+    width: 100%;
+  }
+
+  .super-brilliant-minds-card-image img {
+    width: 285px;
+  }
+
+  .super-brilliant-minds-card-content h3 {
+    font-size: 18px;
+  }
+
+  .super-brilliant-minds-card-content p {
+    font-size: 15px;
+  }
+}

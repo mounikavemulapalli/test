@@ -1,0 +1,251 @@
+/*                             Science Styles */
+.super-science {
+  width: 100%;
+  padding: 4rem 0;
+  background: #f6fcfe;
+}
+
+.super-science h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: darkblue;
+}
+
+.super-science h1 span {
+  font-weight: 400;
+}
+
+.super-science h5 {
+  font-size: 21px;
+  text-align: center;
+  color: darkblue;
+  font-style: normal;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+.super-science1,
+.super-science2 {
+  display: block;
+  width: 81%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 12px;
+  border: 2px solid #5a40c4;
+  padding: 50px 38px 0;
+  position: relative;
+}
+.super-science2 {
+  border: 2px solid #ff3f4e;
+}
+
+.super-science1 img,
+.super-science2 img {
+  width: 100%;
+}
+
+.super-science1,
+.super-science2 p {
+  font-size: 1rem;
+  color: darkblue;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.super-science1-header,
+.super-science2-header {
+  border-radius: 33px;
+  background: #5a40c4;
+  position: absolute;
+  top: -30px;
+  left: 30%;
+  padding: 0 3%;
+}
+.super-science2-header {
+  background: #ff3f4e;
+  left: 33%;
+}
+
+.super-science1-header h4,
+.super-science2-header h4 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 55px;
+  letter-spacing: -0.96px;
+}
+
+.super-science1-mobile,
+.super-science2-mobile {
+  display: none;
+}
+
+/*                          Responsive Screen for 1024px */
+@media (max-width: 1024px) {
+  .super-science1-header h4,
+  .super-science2-header h4 {
+    font-size: 1.25rem;
+    line-height: 45px;
+  }
+}
+
+/*                          Responsive Screen for 768px */
+@media (max-width: 768px) {
+  .super-science1,
+  .super-science2 {
+    display: none;
+  }
+
+  .super-science h1 {
+    /* font-size: 2rem; */
+    line-height: 2.25rem;
+  }
+
+  .super-science h5 {
+    font-size: 1.25rem;
+  }
+
+  .super-science1-mobile,
+  .super-science2-mobile {
+    display: block;
+    padding: 0 40px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .super-science2-mobile {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .super-science1-mobile div,
+  .super-science2-mobile-header {
+    margin: auto;
+    border-radius: 33px;
+    background: #5a40c4;
+    width: 350px;
+    padding: 15px 21px;
+    margin-bottom: 27px;
+  }
+
+  .super-science2-mobile-header {
+    background: #ff3f4e;
+    width: 277px;
+  }
+
+  .super-science1-mobile div h4,
+  .super-science2-mobile div h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 22px;
+    letter-spacing: -0.56px;
+  }
+
+  .super-science2-mobile-list {
+    display: flex;
+    margin-top: 5px;
+    gap: 2.2rem;
+    width: 100vw;
+    animation: marquee1 10s linear infinite;
+  }
+  @keyframes marquee1 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .super-science2-mobile-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .super-science2-mobile-list div {
+    min-width: 96px;
+  }
+
+  .super-science2-mobile-list h3 {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+  }
+
+  .super-science1-mobile img {
+    width: 80%;
+  }
+
+  .super-science2-mobile-list img {
+    width: 125%;
+  }
+
+  .super-science2-mobile-list img:first-of-type {
+    margin-left: 10px;
+  }
+}
+
+/*                            Responsive Screen for 450px */
+@media (max-width: 450px) {
+  .super-science {
+    padding: 33px 0 20px;
+  }
+
+  .super-science h1,
+  .super-science h1 span {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+    padding: 0 1rem;
+  }
+
+  .super-science h5 {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.56px;
+    padding: 0 4rem;
+  }
+
+  .super-science1-mobile,
+  .super-science2-mobile {
+    padding: 0 14px;
+    margin-top: 22px;
+  }
+
+  .super-science2-mobile {
+    padding: 0;
+  }
+
+  .super-science1-mobile div,
+  .super-science2-mobile-header {
+    width: 280px;
+    padding: 7px 21px;
+  }
+
+  .super-science2-mobile-header {
+    width: 221px;
+  }
+
+  .super-science1-mobile div h4,
+  .super-science2-mobile div h4 {
+    font-size: 12px;
+  }
+
+  .super-science1-mobile img {
+    width: 90%;
+  }
+
+  .super-science2-mobile-list img {
+    width: 100%;
+  }
+  @keyframes marquee1 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-240%);
+    }
+  }
+}

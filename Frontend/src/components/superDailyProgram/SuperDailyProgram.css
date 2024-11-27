@@ -1,0 +1,464 @@
+.super-container {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.prev {
+  left: 8%;
+}
+
+.next {
+  right: 8%;
+}
+
+/*                             Main Styles */
+.super-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #f0fbff;
+}
+
+.super-main-content {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 4rem 1rem 4rem 5rem;
+}
+
+.super-main-content h1 {
+  font-size: 4rem;
+  line-height: 3.5rem;
+  color: red;
+}
+
+.super-main-content h1 span {
+  color: darkblue;
+}
+
+.super-main-content p {
+  font-size: 1.5rem;
+  color: darkblue;
+  font-weight: 400;
+}
+
+.super-main-content ul {
+  font-size: 1.5rem;
+  margin: 2.5rem 0;
+  line-height: 2rem;
+  list-style: none;
+}
+
+.super-main-content ul li {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.super-main-content ul li::before {
+  content: "✔";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.super-main-content h4 {
+  font-size: 1.5rem;
+  color: darkblue;
+}
+
+.super-main-content button {
+  background-color: #ff5766;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.super-main-content button:hover {
+  box-shadow: 0px 0px 20px rgb(140, 140, 140);
+}
+
+.super-main-image {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.super-main-image img {
+  width: 50%;
+  height: auto;
+  margin: 2rem 0;
+}
+
+/*                               CountDown Styles */
+.super-countdown {
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  padding: 2.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  @media (max-width: 998px) {
+    flex-direction: column;
+  }
+}
+
+.super-countdown-date h2 {
+  font-weight: 400;
+}
+
+.super-countdown-time span {
+  font-size: 1.25rem;
+  margin-left: 1rem;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/*                           Super Baby Offers Styles */
+.super-offers {
+  width: 100%;
+  height: auto;
+  color: darkblue;
+  padding: 4rem 0;
+}
+
+.super-offers h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.super-offers h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.super-offers-cards {
+  width: 80%;
+  margin: 2rem auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.super-offers-card {
+  width: 48%;
+  border-radius: 12px;
+  border: 1px solid #e2deef;
+  display: flex;
+}
+
+.super-offers-card-image {
+  width: 30%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.super-offers-card-image img {
+  width: 60%;
+}
+
+.super-offers-card-content {
+  width: 70%;
+  padding: 2rem 0;
+}
+
+.super-offers-card-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+.super-offers-card-content h6 {
+  color: #5c6a7e;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+.super-offers-card-lastDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff0f1;
+  border-radius: 12px;
+}
+
+.super-offers-card-lastDiv h2 {
+  font-size: 20px;
+}
+
+.super-offers-card-lastDiv button {
+  background-color: #ff5766;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border: none;
+}
+
+.super-offers-card-lastDiv button:hover {
+  box-shadow: 0px 0px 20px rgb(140, 140, 140);
+}
+
+/*                           About Styles */
+.super-about {
+  background-color: darkblue;
+  color: white;
+  padding: 4rem 4rem 2rem 4rem;
+}
+
+.super-about h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.super-about p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.super-about h4 {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+}
+
+.super-about h5 {
+  font-size: 1.25rem;
+  text-align: end;
+}
+
+.super-about hr {
+  margin: 1rem 0;
+}
+
+.super-about-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.super-about-footer h4 {
+  color: white;
+}
+
+.super-about-footer span {
+  color: red;
+}
+
+/*                            Media Queries for responsiveness ( 1024px )*/
+@media (max-width: 1024px) {
+  .super-main-content {
+    width: 60%;
+    padding: 4rem 2.5rem;
+  }
+  .super-main-image {
+    align-items: center;
+    width: 40%;
+  }
+  .super-main-image img {
+    width: 90%;
+    height: 75%;
+  }
+
+  .super-offers-cards {
+    width: 90%;
+  }
+  .super-offers-card-content h6 {
+    font-size: 15px;
+    letter-spacing: -0.56px;
+  }
+  .super-offers-card-image {
+    width: 35%;
+  }
+  .super-offers-card-image img {
+    width: 70%;
+  }
+  .super-offers-card-content {
+    padding: 1rem 0;
+  }
+  .super-offers-card-lastDiv a {
+    font-size: 1rem;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 898px )*/
+@media (max-width: 898px) {
+  .super-offers-cards {
+    justify-content: space-evenly;
+  }
+  .super-offers-card {
+    width: 45%;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 768px )*/
+@media (max-width: 768px) {
+  .super-main-image img {
+    height: 70%;
+  }
+  .super-main-content h1 {
+    font-size: 2rem;
+  }
+  .super-main-content p {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  .super-main-content ul {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+  }
+  .super-main-content h4 {
+    font-size: 1.2rem;
+  }
+
+  .super-offers h1 {
+    padding: 0 1rem;
+    line-height: 2.25rem;
+  }
+  .super-offers-card {
+    width: 100%;
+  }
+  .super-offers-card-image {
+    width: 20%;
+  }
+  .super-offers-card-lastDiv {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .super-about {
+    padding: 4rem 3rem 2rem 3rem;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 480px )*/
+@media (max-width: 480px) {
+  .super-main {
+    flex-direction: column-reverse;
+  }
+  .super-main-content {
+    width: 100%;
+    padding: 0 1.5rem 4rem 1.5rem;
+  }
+  .super-main-image {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  .super-main-content h1 {
+    line-height: 2rem;
+  }
+  .super-main-content p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .super-main-content ul {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .super-main-content ul li::before {
+    width: 20px;
+    height: 20px;
+  }
+  .super-main-content h4 {
+    font-size: 1rem;
+  }
+  .super-main-content a {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .super-countdown-date h2 {
+    font-size: 1.25rem;
+    padding: 0 8px;
+    text-align: center;
+  }
+
+  .super-offers {
+    background-color: #ffe4d0;
+  }
+  .super-offers h1 {
+    font-size: 1.4rem;
+  }
+  .super-offers h5 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .super-offers-card {
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  .super-offers-card-image {
+    width: 40%;
+    padding-bottom: 0;
+  }
+  .super-offers-card-image img {
+    width: 100%;
+  }
+  .super-offers-card-content {
+    width: 100%;
+    text-align: center;
+  }
+  .super-offers-card-content h2 {
+    font-size: 18px;
+  }
+  .super-offers-card-content h6 {
+    font-size: 14px;
+  }
+  .super-offers-card-lastDiv h2 {
+    font-size: 18px;
+  }
+  .super-offers-card-lastDiv a {
+    font-size: 14px;
+  }
+
+  .super-about {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+  .super-about-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

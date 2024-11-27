@@ -1,0 +1,172 @@
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.prev {
+  left: 8%;
+}
+
+.next {
+  right: 8%;
+}
+
+/*                         Super Peek Section Styles */
+.super-peek {
+  background: #5a40c4;
+  background-image: url("https://www.uptodd.com/images/newWebsite/genius-babies-background.png");
+  width: 100%;
+  padding: 48px 0 100px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.super-peek h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.super-peek h1 span {
+  font-weight: 300;
+}
+
+.super-peek h5 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.super-peek-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.super-peek-cards {
+  display: flex;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.super-peek-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.super-peek-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.super-peek-card {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  scroll-snap-align: start;
+}
+
+.super-peek-card h2 {
+  font-size: 1.25rem;
+  margin-top: 10px;
+  text-align: start;
+  color: darkblue;
+}
+
+.super-peek-iframe-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.super-peek-iframe-container iframe {
+  border-radius: 10px;
+}
+
+/*                            Media Queries for responsiveness ( 1024px )*/
+@media (max-width: 1024px) {
+  .super-peek-card {
+    width: 40%;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 768px )*/
+@media (max-width: 768px) {
+  .super-peek-card {
+    width: 60%;
+  }
+
+  .super-peek h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .super-peek h5 {
+    font-size: 18px;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 480px )*/
+@media (max-width: 480px) {
+  .prev {
+    left: 0%;
+  }
+  .next {
+    right: 0%;
+  }
+
+  .super-peek {
+    padding: 45px 0 60px;
+  }
+
+  .super-peek h1 {
+    font-size: 1.25rem;
+    padding: 0 1rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .super-peek h5 {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .super-peek-cards {
+    width: 90%;
+  }
+
+  .super-peek-card {
+    width: 100%;
+    height: 22rem;
+  }
+}
+
+.super-peek-card p {
+  color: var(--Primary-Font);
+  line-height: 1.75rem;
+  letter-spacing: -0.02rem;
+  font-size: 1.25rem;
+  text-align: left;
+  padding: 1rem 0.5rem 1.5rem;
+  margin: 0;
+}

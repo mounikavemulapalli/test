@@ -1,0 +1,1291 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.main {
+  overflow-x: hidden;
+  margin: 0px;
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.genius-babies h1,
+.genius-babies h1 span {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.6px;
+  padding: 0 15px;
+}
+
+.genius-babies h1 {
+  margin-top: 5px;
+}
+
+.genius-babies h1 span {
+  font-weight: 400;
+  padding: 0 15px;
+}
+
+.genius-babies h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.carousel-container {
+  background: #5a40c4;
+  background-image: url("https://www.uptodd.com/images/newWebsite/genius-babies-background.png");
+  width: 100%;
+  padding: 48px 0 100px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 95vw;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.carousel {
+  display: flex;
+  scroll-behavior: smooth;
+  overflow-x: auto; /* Horizontal scrolling */
+  gap: 20px; /* Space between cards */
+  scroll-snap-type: x mandatory;
+  width: 90%;
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.carousel-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-card {
+  min-width: 300px; /* Ensure each card has a minimum width */
+  flex: 0 0 auto; /* Prevent shrinking */
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 20px;
+  max-width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* scroll-snap-align: start; */
+}
+
+.carousel-card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: start;
+  color: #002863;
+  font-weight: 700;
+}
+
+.carousel-card iframe {
+  text-align: center;
+  border-radius: 20px;
+  width: -webkit-fill-available;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 15px;
+}
+
+.child-all-btn {
+  color: rgba(255, 255, 255, 1);
+  border: 1.5px solid rgba(255, 255, 255, 1);
+  background-color: transparent;
+}
+
+.child-all-btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(62, 35, 170, 1);
+}
+
+.intro {
+  background: linear-gradient(0deg, #4b5adb 0%, #5a40c4 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.intro h5 {
+  font-weight: 500;
+  font-size: 1.4em;
+  margin-bottom: 0.2em;
+  letter-spacing: -0.8px;
+}
+
+.intro h1 {
+  font-weight: 500;
+  font-size: 2.2em;
+  margin-top: 0.2em;
+  letter-spacing: -1px;
+}
+
+.dev-wonder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #fffbfb;
+  padding: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.dev-wonder h1 {
+  color: rgb(0, 40, 99, 1);
+  font-size: 2em;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.dev-cont {
+  box-sizing: border-box;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4em 0;
+}
+
+.dev-cont a {
+  text-decoration: none;
+}
+
+.dev-cont::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.dev-card {
+  width: 200px;
+  height: 265px;
+  flex-shrink: 0;
+}
+
+.dev-card:first-child {
+  margin-right: 4rem;
+}
+
+.dev-card:not(:first-child):not(:last-child) {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.dev-card:last-child {
+  margin-left: 4em;
+}
+
+.bg-sq {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 199px;
+  height: 265px;
+  padding: 18px 6px;
+  color: rgba(0, 40, 99, 1);
+  background-color: #f5eae2;
+  border-radius: 15px;
+}
+
+.f-1 {
+  background-image: url("../../assets/images/successstory/babystory/developmental-wonder-1.png");
+}
+.f-2 {
+  background-image: url("../../assets/images/successstory/babystory/developmental-wonder-2.png");
+}
+.f-3 {
+  background-image: url("../../assets/images/successstory/babystory/developmental-wonder-3.png");
+}
+
+.front-img {
+  position: relative;
+  width: 257.79px;
+  height: 143.22px;
+  top: -180px;
+  left: -30px;
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.front-img:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.play-circle {
+  width: 59.6px;
+  height: 59.6px;
+  margin-left: -60px;
+  padding: 0 0;
+  background-image: url("../../assets/images/successstory/symbols/play_circle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.right-circle {
+  display: inline-block;
+  position: relative;
+  top: 25px;
+  width: 56px;
+  height: 56px;
+  background-image: url("../../assets/images/successstory/symbols/right-chevy-arrow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  transition: 0.3s;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.right-circle:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.down-circle {
+  display: none;
+}
+
+.curlyline {
+  display: flex;
+  justify-content: center;
+  background: #fffbfb;
+  padding-bottom: 3rem;
+}
+
+/* happy parents section */
+
+.happy-parents {
+  padding-top: 3rem;
+}
+
+.happy-parents h1,
+.happy-parents h1 span {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: -1.44px;
+}
+
+.happy-parents h1 span {
+  font-weight: 400;
+}
+
+.happy-parents h5 {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -0.96px;
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+
+.happy-parent-list-container {
+  position: relative;
+}
+
+.happy-parents-slider-next,
+.happy-parents-slider-prev {
+  position: absolute;
+  top: 45%;
+  right: 7.5%;
+  width: 44px;
+  cursor: pointer;
+}
+
+.happy-parents-slider-prev {
+  left: 7.5%;
+}
+
+.happy-parent-list {
+  display: flex;
+  overflow-x: scroll;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.happy-parent-list::-webkit-scrollbar {
+  display: none;
+}
+
+.happy-parents-card {
+  min-width: 300px;
+  height: 415px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.happy-parents-card div iframe {
+  width: -webkit-fill-available;
+}
+
+.quote-container {
+  position: relative;
+  padding-top: 10px;
+}
+
+.quote-mark {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.quote-text {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.4;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.see-all-cont {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.see-all-cont a {
+  text-decoration: none;
+}
+
+.see-all-btn {
+  width: 114px;
+  height: 55px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.parents-all-btn {
+  background-color: white;
+  color: rgba(255, 63, 78, 1);
+  border: 1.5px solid rgba(255, 63, 78, 1);
+}
+
+.parents-all-btn:hover {
+  background-color: rgba(255, 63, 78, 1);
+  color: white;
+}
+
+.child-see-all-cont {
+  margin-bottom: -40px;
+}
+
+/* luminary section */
+.luminary {
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lum-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lum-item img {
+  height: 48px;
+  width: 48px;
+}
+
+.lum-item h4,
+.lum-item h4 span {
+  color: #002863;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -0.96px;
+  margin-top: 14px;
+}
+
+.lum-item h4 span {
+  font-weight: 700;
+}
+
+/* awarded babies */
+
+.awared-babies {
+  padding: 50px 0;
+}
+
+.awared-babies h1,
+.awared-babies h1 span {
+  color: #002863;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -0.8px;
+}
+
+.awared-babies h1 span {
+  font-weight: 400;
+}
+
+.awared-babies-cont {
+  position: relative;
+}
+
+.baby-award-slider-next,
+.baby-award-slider-prev {
+  position: absolute;
+  top: 45%;
+  right: 7.5%;
+  width: 44px;
+  cursor: pointer;
+}
+
+.baby-award-slider-prev {
+  left: 7.5%;
+}
+
+.baby-award-list {
+  margin: auto;
+  margin-top: 36px;
+  width: 81%;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.baby-award-list::-webkit-scrollbar {
+  display: none;
+}
+
+.baby-award-card {
+  min-width: 360px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px 0 rgb(19 15 46 / 0.06);
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.baby-award-card img {
+  width: 100%;
+}
+
+.baby-award-card p {
+  color: #002863;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.8px;
+  padding: 20px 26px 43px;
+}
+
+.baby-award-card p span {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.awared-babies Button {
+  height: 55px;
+  width: 114px;
+  font-size: 1.1rem;
+  background: white;
+  color: rgba(255, 63, 78, 1);
+  border: 1.5px solid rgba(255, 63, 78, 1);
+  transition: 0.3s;
+}
+
+.awared-babies Button:hover {
+  background: rgba(255, 63, 78, 1);
+  color: white;
+  box-shadow: none;
+}
+
+.start-now-banner Button {
+  text-wrap: nowrap;
+  height: 54px;
+  font-size: 1.2rem;
+}
+
+/* doctor reveiew */
+
+.doctor-review {
+  padding: 40px 0px;
+  overflow: hidden;
+}
+
+.doctor-review h1 {
+  color: #002863;
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1.3px;
+}
+
+.doctor-review h5 {
+  color: #002863;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.96px;
+  margin: 30px 0px;
+}
+
+.doctor-review-list {
+  margin-top: 41px;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.doctor-review-list::-webkit-scrollbar {
+  display: none;
+}
+
+.doctor-review-card {
+  min-width: 260px;
+  border-radius: 12px;
+  background: #f5f5f5;
+  margin-left: 21px;
+  white-space: wrap;
+}
+
+.doctor-review-card:first-of-type {
+  margin-left: 9%;
+}
+
+.doctor-review-image-part {
+  position: relative;
+}
+
+.doctor-review-image-part img {
+  width: 100%;
+  height: 194px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.doctor-review-image-part div {
+  position: absolute;
+  width: 100%;
+  background: #5a40c4;
+  padding: 10px 0px;
+  bottom: -10px;
+  height: 70px;
+}
+
+.doctor-review-image-part div span {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.8px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.doctor-review-image-part div h6 {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.56px;
+  margin-top: 1px;
+  padding-left: 20px;
+}
+
+.doctor-review-quote {
+  padding: 22px 22px 34px;
+}
+
+.doctor-review-quote img {
+  margin-bottom: 7px;
+}
+
+.doctor-review-quote p {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+}
+
+.slogans-card {
+  width: 100%;
+  padding: 3em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  background-color: rgba(246, 252, 254, 1);
+  color: rgba(0, 40, 99, 1);
+}
+
+.slogans-card p {
+  width: 40%;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.image-slider img {
+  width: 227px;
+  height: 282px;
+  border-radius: 15px;
+}
+
+.slogan-dots {
+  padding-top: 10px;
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border: 1px solid rgba(0, 40, 99, 1);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #002863;
+}
+
+.fade {
+  animation-name: whatsappContainerFade;
+  animation-duration: 1.5s;
+}
+
+#baby-champs-container {
+  background: white;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#baby-champs-container > h1:first-of-type {
+  padding: 4.4rem 0 4.4rem;
+  color: #002863;
+  font-family: "DM Sans";
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 4.2rem;
+  letter-spacing: -1.6px;
+}
+
+#baby-champs-container > h1 span {
+  font-weight: 400;
+}
+
+.baby-champs-card {
+  width: clamp(300px, 85%, 1300px);
+  padding: 2em;
+  padding-right: 0;
+  background: rgb(247, 247, 255);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.baby-champs-card:nth-child(odd) {
+  background: rgb(255 240 241);
+}
+
+.mobile-top-headings {
+  display: none;
+  color: rgb(0 40 99);
+  letter-spacing: -0.48px;
+}
+
+.left-slider {
+  width: 55%;
+  height: 530px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.left-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.left-slider img {
+  height: 100%;
+  object-fit: cover;
+  scroll-snap-align: start;
+  margin: 0 0.5em;
+  border-radius: 10px;
+}
+
+.right-container {
+  width: 45%;
+  height: 530px;
+  padding-left: 2em;
+  margin-right: 3em;
+  color: rgba(0, 40, 99, 1);
+  letter-spacing: -0.48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.right-container div {
+  margin-top: 0.5em;
+}
+
+.right-container > div h4,
+.mobile-top-headings h4 {
+  font-size: 1.2em;
+  color: rgb(255 100 115);
+}
+
+.right-container > div h2 {
+  font-size: 2em;
+}
+
+.right-container > div h2 span {
+  font-size: 0.6em;
+}
+
+.right-container > div p,
+.mobile-top-headings p {
+  margin: 0;
+  margin-top: 1em;
+  font-size: 1.1em;
+  padding-right: 2em;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.video-card div {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.video-card div img {
+  width: 90%;
+  margin-top: 0.3em;
+  margin-left: -22px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.video-card div img:first-of-type {
+  position: absolute;
+  width: 4em;
+}
+
+.mobile-thumbnail-container {
+  display: none;
+}
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.modal span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-inline: 0.6rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.modal iframe {
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  aspect-ratio: 16 / 9;
+}
+
+@keyframes whatsappContainerFade {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* responsive */
+
+@media (max-width: 1250px) {
+  .right-container {
+    padding-left: 2em;
+  }
+  .video-card h3 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1068px) {
+  .right-container {
+    padding-right: 1em;
+  }
+  .thumbnail-container {
+    margin-top: -30px !important;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .intro h1 {
+    font-size: 1.5em;
+  }
+  .dev-cont {
+    justify-content: start;
+    overflow: scroll;
+    padding-left: 3em;
+  }
+  .dev-wonder h1 {
+    font-size: 1.5em;
+  }
+
+  .start-now-banner {
+    padding: 48px 8%;
+  }
+}
+
+@media (max-width: 950px) {
+  .baby-champs-card {
+    padding-right: 2em;
+    flex-direction: column;
+    padding-bottom: 1em;
+    align-items: start;
+  }
+  .mobile-top-headings {
+    display: block;
+    float: left;
+  }
+  .left-slider {
+    width: 100%;
+    height: 55vw;
+    margin-top: 1.2rem;
+    background-clip: content-box;
+  }
+  .right-container {
+    display: none;
+  }
+  .mobile-thumbnail-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1em 0;
+  }
+  .mobile-thumbnail-container div {
+    display: flex;
+    padding: 1em;
+    margin: 0.5em 0;
+    margin-bottom: 0;
+    background: white;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  .mobile-thumbnail-container img {
+    height: 10vw;
+  }
+  .mobile-thumbnail-container > div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    color: rgb(0 40 99);
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .luminary {
+    width: 95%;
+  }
+  .awared-babies h1,
+  .awared-babies h1 span {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1.3px;
+  }
+  .baby-award-list {
+    width: 100%;
+  }
+  .baby-award-card {
+    min-width: 320px;
+  }
+  .start-now-banner {
+    flex-wrap: wrap;
+  }
+  .start-now-banner h3 {
+    width: 100%;
+  }
+  .start-now-banner button {
+    margin-top: 34px;
+    width: 100%;
+  }
+  .doctor-review h1 {
+    padding: 0 30px;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -1.4px;
+  }
+  .doctor-review h5 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.65px;
+    padding: 0 50px;
+  }
+  .slogans-card p {
+    font-size: 1.5em;
+  }
+  #baby-champs-container {
+    padding: 1em;
+  }
+  .baby-champs-card {
+    width: clamp(300px, 95%, 1300px);
+  }
+  .left-slider {
+    background-size: contain;
+  }
+  .mobile-thumbnail-container img {
+    height: 15vw;
+  }
+}
+
+@media (max-width: 750px) {
+  #baby-champs-container > h1:first-of-type {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    letter-spacing: -1.3px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro h1 {
+    font-size: 1.25em;
+  }
+
+  .carousel-card,
+  .carousel-card iframe {
+    width: -webkit-fill-available;
+  }
+
+  .carousel-header h1 {
+    font-size: 1.5em;
+  }
+
+  .carousel-header p {
+    font-size: 1em;
+  }
+
+  .dev-wonder h1 {
+    font-size: 1.25em;
+  }
+
+  .dev-cont {
+    flex-direction: column;
+    overflow-x: hidden;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .dev-card:first-child {
+    margin-right: 0;
+  }
+
+  .dev-card:not(:first-child):not(:last-child) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .dev-card:last-child {
+    margin-left: 0;
+  }
+
+  .right-circle {
+    display: none;
+  }
+
+  .down-circle {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+    width: 56px;
+    height: 56px;
+    background-image: url("https://www.uptodd.com/images/newWebsite/down-chevy-arrow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    margin-left: 0px;
+    transition: 0.3s;
+    border-radius: 50%;
+  }
+
+  .happy-parent-list {
+    width: 100%;
+    padding: 0 20px 20px 20px;
+  }
+
+  .happy-parents h1,
+  .happy-parents h1 span {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+  }
+  .happy-parents h1 {
+    padding: 0 30px;
+  }
+  .happy-parents h5 {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.56px;
+  }
+
+  .luminary {
+    flex-direction: column;
+    width: 95%;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .lum-item {
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .lum-item img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .lum-item h4 {
+    display: flex;
+    align-items: end;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+
+  .lum-item h4,
+  .lum-item h4 span {
+    line-height: 10px;
+    font-size: 16px;
+    letter-spacing: -0.64px;
+    margin-top: 0;
+  }
+
+  .genius-babies h1,
+  .genius-babies h1 span {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .genius-babies h5 {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.56px;
+    margin-top: 13px;
+    padding: 0 15%;
+  }
+
+  .carousel {
+    width: 100%;
+    margin: 0;
+  }
+
+  .awared-babies h1,
+  .awared-babies h1 span {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+  }
+
+  .baby-award-card {
+    min-width: 280px;
+  }
+
+  .start-now-banner button,
+  .start-now-banner h3 {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.72px;
+  }
+
+  .doctor-review h1 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+  }
+
+  .doctor-review h5 {
+    display: none;
+  }
+
+  .slogans-card {
+    flex-direction: column;
+  }
+
+  .slogans-card p {
+    width: 95%;
+    font-size: 1.3em;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .baby-champs-card {
+    padding: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  #baby-champs-container {
+    padding: 0;
+  }
+  .baby-champs-card {
+    padding: 1em;
+    padding-top: 1.2em;
+  }
+  .mobile-top-headings h4 {
+    font-size: 1em;
+  }
+  .mobile-top-headings h2 {
+    font-size: 1.5em;
+  }
+  .mobile-top-headings p {
+    font-size: 0.9em;
+    padding: 0;
+    margin-top: 0.4em;
+  }
+  .left-slider {
+    height: 300px;
+  }
+  .mobile-thumbnail-container div {
+    font-size: 0.7em;
+  }
+  .mobile-thumbnail-container img {
+    height: 20vw;
+  }
+}
+
+@media (max-width: 450px) {
+  #baby-champs-container > h1:first-of-type {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    letter-spacing: -0.8px;
+  }
+}

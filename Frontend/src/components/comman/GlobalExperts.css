@@ -1,0 +1,118 @@
+/*                            Top Global Experts Styles*/
+.super-doctor-review {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.super-doctor-review h1 {
+  font-size: 2.75rem;
+  text-align: center;
+  color: darkblue;
+}
+
+.super-doctor-review h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: darkblue;
+  font-style: normal;
+  font-weight: 300;
+  margin: 2rem 0;
+}
+
+.super-doctor-review-list {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 2rem;
+}
+
+.super-doctor-review-cards {
+  display: flex;
+  padding-left: 10%;
+  animation: marquee 20s linear infinite;
+  white-space: nowrap;
+}
+.paused {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.super-doctor-review-card {
+  min-width: 260px;
+  height: 470px;
+  border-radius: 12px;
+  background: #f5f5f5;
+  margin-left: 21px;
+  white-space: wrap;
+}
+
+.super-doctor-review-image-part {
+  position: relative;
+}
+
+.super-doctor-review-image-part img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.super-doctor-review-image-part div {
+  position: absolute;
+  width: 100%;
+  background: #5a40c4;
+  padding: 10px 22px;
+  bottom: -10px;
+}
+
+.super-doctor-review-image-part div h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.super-doctor-review-image-part div h6 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.super-doctor-review-quote {
+  padding: 22px 22px 34px;
+}
+
+/*                            Media Queries for responsiveness ( 1024px )*/
+@media (max-width: 1024px) {
+  .super-doctor-review h1 {
+    font-size: 2.5rem;
+  }
+
+  .super-doctor-review h4 {
+    font-size: 22px;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 768px )*/
+@media (max-width: 768px) {
+  .super-doctor-review h1 {
+    font-size: 1.75rem;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 480px )*/
+@media (max-width: 480px) {
+  .super-doctor-review h1 {
+    font-size: 1.25rem;
+  }
+
+  .super-doctor-review h4 {
+    display: none;
+  }
+}

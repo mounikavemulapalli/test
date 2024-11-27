@@ -1,0 +1,74 @@
+.schedule-btn{
+  width: 250px;
+    height: 54px;
+    border-radius: 8px;
+    background: #ff5766;
+    color: #fff;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    min-width: 9rem;
+    border: none;
+    text-align: center;
+}
+
+.full-btn{
+  width: 100%;
+}
+
+.Home-button:hover {
+  box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+.access-button:hover {
+  box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.how-it-works h1 {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1.6px;
+}
+
+.a-btn {
+  width: 250px;
+  height: 54px;
+  border-radius: 8px ;
+  background: #ff5766;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  border: none;
+  margin-top: 5rem;
+  text-align: center ;
+  
+}
+.Home-button {
+  border-radius: 8px;
+  background: #ff5766;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: -.8px;
+  font-family: "DM Sans";
+  font-weight: bold;
+  line-height: 1.62rem;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.a-btn {
+  margin-top: 0;
+}
+
+.how-it-works h1 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}

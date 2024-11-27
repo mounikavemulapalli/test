@@ -1,0 +1,40 @@
+export const pillarsList = [
+  {
+    id: 0,
+    title: "4 Cognitive Pillars",
+    text1: "Lingustic Champion",
+    text2: "Logic Master",
+    text3: "Memory Powerhouse",
+    text4: "Curious Explorer",
+  },
+  {
+    id: 1,
+    title: "4 Physical Pillars",
+    text1: "Vitality",
+    text2: "Vigour",
+    text3: "Equilibrium & Agility",
+    text4: "Dexterity",
+  },
+  {
+    id: 2,
+    title: "4 Moral pillars",
+    text1: "Leadership Skills",
+    text2: "Honest Charm",
+    text3: "Empathetic Heart",
+    text4: "Harmony Hues",
+  },
+  {
+    id: 3,
+    title: "4 Creativity pillars",
+    text1: "Inventive Ideator",
+    text2: "Artistic Champ",
+    text3: "Drama & Creations",
+    text4: "Rhythmic Explorations",
+  },
+  {
+    id: 4,
+    title: "Intuition & Foresight Development",
+    text1: "Intuition Skills",
+    text2: "Foresight Vision",
+  },
+];

@@ -1,0 +1,153 @@
+.slider-container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.slider-container h1 {
+  font-size: 2rem;
+  width: 100%;
+  font-weight: 400;
+  color: darkblue;
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.slider-container h1 span {
+  font-weight: 600;
+}
+
+.slide-item img {
+  display: block;
+  margin: 0 auto;
+  height: 120px;
+  background-color: #fff;
+  box-shadow: 0 3px 17px rgb(0 0 0 / 25%);
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  padding: 5px;
+}
+
+.slider-image.active {
+  transform: scale(1.25);
+}
+
+.image-name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.slider-container hr {
+  margin: 1rem 0;
+}
+
+.super-objective-cards {
+  width: 90%;
+  height: auto;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.super-objective-card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.super-objective-card img {
+  width: 25%;
+}
+
+.super-objective-card h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+/*                            Media Queries for responsiveness ( 1024px )*/
+@media (max-width: 1024px) {
+  .slide-item img {
+    width: 60%;
+    height: 100px;
+  }
+
+  .super-objective-card img {
+    width: 30%;
+  }
+  .super-objective-card h5 {
+    font-size: 1.2rem;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 768px )*/
+@media (max-width: 768px) {
+  .slider-container {
+    width: 90%;
+  }
+  .slider-container h1 {
+    font-size: 1.5rem;
+  }
+  .slide-item img {
+    height: 75px;
+  }
+  .image-name {
+    font-size: 1.25rem;
+  }
+
+  .super-objective-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .super-objective-card {
+    width: 25%;
+  }
+  .super-objective-card h5 {
+    font-size: 1.1rem;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 480px )*/
+@media (max-width: 480px) {
+  .slider-container {
+    width: 100%;
+  }
+  .slider-container h1 {
+    width: 98%;
+    font-size: 1.25rem;
+  }
+  .slide-item img {
+    height: 60px;
+  }
+  .slider-image.active {
+    transform: scale(1.5);
+  }
+  .image-name {
+    font-size: 1rem;
+  }
+
+  .super-objective-card {
+    width: 30%;
+  }
+  .super-objective-card img {
+    width: 40%;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 320px )*/
+@media (max-width: 320px) {
+  .slide-item img {
+    height: 50px;
+  }
+}

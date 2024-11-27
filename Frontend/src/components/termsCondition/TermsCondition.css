@@ -1,0 +1,80 @@
+.terms-container {
+  padding: 1rem 2rem;
+}
+
+.terms-container h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.terms-container h5 {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.terms-container h6 {
+  font-size: 1rem;
+  font-weight: 300;
+  padding-top: 4rem;
+}
+
+.terms-content {
+  background-color: #ebf7f9;
+  margin-top: 2rem;
+  padding: 20px 30px 50px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.terms-content h2 {
+  font-weight: 500;
+}
+
+.terms-content p {
+  padding-left: 1.5rem;
+  opacity: 70%;
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.terms-content p span {
+  font-weight: bold;
+}
+
+.terms-content ul {
+  padding: 0.5rem 0 0 1.5rem;
+  line-height: 1.75rem;
+}
+
+.terms-content ol {
+  padding: 0.5rem 0 0 1.5rem;
+  line-height: 1.75rem;
+  list-style-type: lower-alpha;
+}
+
+.terms-container ul span {
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .terms-container {
+    padding: 1rem;
+  }
+  .terms-container-para {
+    text-align: center;
+  }
+  .terms-container h3 {
+    font-size: 1.25rem;
+  }
+  .terms-container h5 {
+    font-size: 1rem;
+  }
+  .terms-content h2 {
+    font-size: 18px;
+  }
+  .terms-content p {
+    padding-left: 1rem;
+    word-spacing: normal;
+  }
+}

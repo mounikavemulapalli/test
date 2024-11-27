@@ -1,0 +1,457 @@
+.career-container {
+  width: 100%;
+  height: auto;
+}
+
+/*                        Career Styles */
+.career-main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.career-main img {
+  width: 100%;
+}
+
+/*                        Join Us Styles */
+.career-joinUs {
+  width: 88%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.career-joinUs h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.career-joinUs p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  text-align: justify;
+  letter-spacing: 0.05rem;
+}
+
+/*                       Career About Styles */
+.career-about-cards {
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.career-about-card {
+  width: 46%;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.career-about-card-image {
+  width: 20%;
+}
+
+.career-about-card-image img {
+  width: 100%;
+}
+
+.career-about-card-content {
+  width: 80%;
+}
+
+.career-about-card-content h1 {
+  font-weight: 300;
+}
+
+.career-about-card-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/*                           Life Styles */
+.career-life {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.career-life h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 4rem;
+}
+
+.career-life p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.career-life-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.career-life-image img {
+  width: 48%;
+  border-radius: 10px;
+}
+
+/*                           Team Styles */
+.career-team {
+  width: 100%;
+  margin: 4rem 0;
+  padding: 2rem 0;
+  background-color: #f5f5f5;
+}
+
+.career-team-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.career-team-content h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.career-team-content p {
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 1rem 0;
+  letter-spacing: 0.05rem;
+}
+
+.career-team-cards {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.career-team-card {
+  width: 31%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.career-team-card h1 {
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+/*                                  Mentor Styles */
+.career-mentor {
+  width: 100%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.career-mentor h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 4rem;
+}
+
+.career-mentor-cards {
+  width: 95%;
+  height: auto;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.career-mentor-card {
+  width: 15%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.career-mentor-card img {
+  width: 75%;
+  height: auto;
+  background-color: #ecf8f4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+
+.career-mentor-card h2 {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.career-mentor-card h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Horizontal slider after 1450px */
+@media screen and (max-width: 1450px) {
+  .career-mentor-cards {
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    text-align: center;
+  }
+
+  .career-mentor-card {
+    display: inline-block;
+    width: 20%;
+    white-space: normal;
+    vertical-align: top;
+  }
+
+  .career-mentor-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .career-mentor-cards::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .career-mentor-cards::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .career-mentor-cards::-webkit-scrollbar-thumb {
+    background-color: #ff5766;
+    border-radius: 10px;
+  }
+}
+
+/*                             Career Footer Styles */
+.career-footer {
+  width: 100%;
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+  background-color: #9150af;
+}
+
+.career-footer-about {
+  color: white;
+}
+
+.career-footer-about h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.career-footer-about p {
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.05rem;
+}
+
+.career-footer-journey {
+  margin-top: 2rem;
+  color: white;
+}
+
+.career-footer-journey h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.career-footer-journey p {
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.05rem;
+}
+
+.career-footer-icons {
+  width: 60%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-footer-icons img {
+  width: 7%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.career-footer-lastDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.career-footer-lastDiv h4 {
+  color: white;
+}
+
+.career-footer-lastDiv span {
+  color: red;
+}
+
+/*                            Media Queries for responsiveness ( 1024px )*/
+@media (max-width: 1024px) {
+  .career-about-cards {
+    width: 80%;
+  }
+  .career-about-card-image {
+    width: 35%;
+  }
+  .career-about-card-content {
+    width: 65%;
+  }
+  .career-about-card-content p {
+    font-size: 1rem;
+  }
+
+  .career-mentor h1 {
+    font-size: 2.25rem;
+    padding: 0 1rem;
+    line-height: 2.5rem;
+  }
+  .career-mentor-card {
+    width: 20%;
+  }
+  .career-mentor-card h2 {
+    font-size: 1.25rem;
+  }
+
+  .career-footer-icons {
+    width: 70%;
+    flex-wrap: wrap;
+  }
+  .career-footer {
+    padding: 2rem 2rem;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 768px )*/
+@media (max-width: 768px) {
+  .career-main {
+    width: 100%;
+  }
+
+  .career-about-card {
+    width: 100%;
+  }
+  .career-about-card-image {
+    width: 20%;
+  }
+  .career-about-card-content {
+    width: 80%;
+  }
+
+  .career-life {
+    width: 85%;
+  }
+
+  .career-team-cards {
+    justify-content: space-between;
+  }
+  .career-team-card {
+    width: 47%;
+  }
+
+  .career-mentor-card {
+    width: 25%;
+  }
+  .career-mentor-card h2 {
+    font-size: 1.25rem;
+  }
+
+  .career-footer-icons {
+    width: 80%;
+  }
+  .career-footer-lastDiv h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/*                            Media Queries for responsiveness ( 480px )*/
+@media (max-width: 480px) {
+  .career-joinUs h1 {
+    font-size: 2rem;
+  }
+  .career-joinUs p {
+    letter-spacing: normal;
+  }
+
+  .career-about-card-image {
+    margin: auto 0;
+  }
+  .career-about-card-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .career-life-image img {
+    width: 100%;
+  }
+  .career-life h1 {
+    font-size: 2rem;
+  }
+  .career-life p {
+    font-size: 1.2rem;
+  }
+
+  .career-team-content h1 {
+    font-size: 2rem;
+  }
+
+  .career-team-content p {
+    font-size: 1.2rem;
+    letter-spacing: normal;
+  }
+
+  .career-team-card {
+    width: 100%;
+  }
+
+  .career-mentor h1 {
+    font-size: 1.75rem;
+  }
+  .career-mentor-card {
+    width: 45%;
+  }
+  .career-mentor-card h2 {
+    font-size: 1rem;
+  }
+  .career-mentor-card h3 {
+    font-size: 1rem;
+  }
+
+  .career-footer-about p,
+  .career-footer-journey p {
+    letter-spacing: 0;
+  }
+  .career-footer-icons {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  .career-footer-icons img {
+    width: 14%;
+  }
+  .career-footer-lastDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

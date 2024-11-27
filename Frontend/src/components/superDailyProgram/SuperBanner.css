@@ -1,0 +1,26 @@
+.super-banner {
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+.super-banner img {
+  width: 100%;
+}
+
+#superBannerSmallScreen {
+  display: none;
+}
+
+#superBannerLargeScreen {
+  display: inline;
+}
+
+@media (max-width: 600px) {
+  #superBannerSmallScreen {
+    display: inline;
+  }
+
+  #superBannerLargeScreen {
+    display: none;
+  }
+}

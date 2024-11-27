@@ -1,0 +1,1488 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+}
+
+/* Banner css */
+
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.uptodd-banner {
+  width: 100%;
+  background: linear-gradient(0deg, #5a40c4 0%, #4b5adb 100%);
+  padding: 49px 130px 37px 113px;
+}
+
+.uptodd-banner h3 {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+}
+
+.uptodd-banner h5 {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+  margin-top: 12px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.image-banner-part-mobile {
+  display: none;
+}
+
+.text-banner-part {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.image-banner-part {
+  width: 41%;
+}
+
+.image-banner-part img {
+  width: 100%;
+}
+
+.text-banner-part h1 {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -1.32px;
+}
+
+.text-banner-part li {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+  padding: 9px 0;
+  display: flex;
+  align-items: center;
+}
+
+.text-banner-part ul {
+  list-style: none;
+  padding: 21px 0;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 11px;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+
+@media (max-width: 1250px) {
+  .uptodd-banner {
+    padding: 49px 100px 37px 90px;
+  }
+
+  .image-banner-part {
+    width: 50%;
+  }
+}
+
+@media (max-width: 970px) {
+  .uptodd-banner {
+    padding: 49px 40px 37px 40px;
+  }
+
+  .text-banner-part h1 {
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -1.12px;
+  }
+
+  .text-banner-part li {
+    font-size: 14px;
+    padding: 4px 0;
+  }
+
+  .text-banner-part li i {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .uptodd-banner {
+    padding: 49px 6.5% 37px 6.5%;
+  }
+
+  .banner-container {
+    flex-wrap: wrap;
+  }
+
+  .image-banner-part {
+    display: none;
+  }
+
+  .image-banner-part-mobile {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 8% 0 3.5%;
+  }
+
+  .image-banner-part-mobile img {
+    width: 100%;
+  }
+
+  .text-banner-part {
+    width: 100%;
+  }
+
+  .text-banner-part h1 {
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+  }
+
+  .text-banner-part li {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  .text-banner-part li i {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 550px) {
+  .text-banner-part h1 {
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: -0.72px;
+  }
+
+  .text-banner-part button {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.64px;
+  }
+}
+
+@media (max-width: 400px) {
+  .text-banner-part h1 {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: -0.72px;
+  }
+
+  .text-banner-part li {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: -0.28px;
+  }
+}
+
+/* How our Program Works !! */
+.how-it-works {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.how-it-works h1 {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1.6px;
+}
+
+.step-wise-process {
+  width: 81%;
+  padding-top: 40px;
+  display: flex;
+  margin: auto;
+}
+
+.all-process-steps {
+  width: 45%;
+  margin-right: 5%;
+}
+
+.process-step {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #d9d9d9;
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 21px;
+  cursor: pointer;
+}
+
+.process-step:first-child {
+  margin-top: 0;
+}
+
+.active-process-step {
+  border: 1px solid #5a40c4;
+  background: rgb(90 64 196 / 0.06);
+}
+
+.left-step-no {
+  margin-right: 18px;
+}
+
+.left-step-no h4 {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+}
+
+.active-process-step h4 {
+  color: #ff3f4e;
+}
+
+.left-step-no h3 {
+  color: var(--Primary-Font, #002863);
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.96px;
+}
+
+.active-process-step h3 {
+  color: #5a40c4;
+}
+
+.process-step svg {
+  width: 3px;
+}
+
+.right-step-desc {
+  margin-left: 18px;
+}
+
+.right-step-desc p {
+  color: var(--Primary-Font, #002863);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.64px;
+}
+
+.active-process-step p {
+  color: #5a40c4;
+}
+
+.process-steps-slider {
+  width: 50%;
+}
+
+.process-steps-image-holder {
+  position: relative;
+}
+
+.process-steps-slider img {
+  border-radius: 12px;
+  width: 100%;
+  display: none;
+  animation-name: process-step-slider-animation;
+  animation-duration: 0.6s;
+  -webkit-animation-name: process-step-slider-animation;
+  -webkit-animation-duration: 0.6s;
+}
+
+.process-steps-slide-icons-laptop {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+}
+
+.how-it-works-button {
+  text-align: center;
+}
+
+.how-it-works-button button {
+  width: 250px;
+  height: 54px;
+  border-radius: 8px;
+  background: #ff5766;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.8px;
+  border: none;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.step-wise-process-mobile {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  .step-wise-process {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .all-process-steps {
+    width: 48%;
+    margin-right: 3%;
+  }
+
+  .process-step {
+    padding: 8px 15px;
+  }
+
+  .left-step-no h4 {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: -0.5px;
+  }
+
+  .left-step-no h3 {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.76px;
+  }
+
+  .right-step-desc p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+  }
+}
+
+@media (max-width: 850px) {
+  .step-wise-process {
+    width: 95%;
+  }
+}
+
+@media (max-width: 750px) {
+  .how-it-works {
+    padding: 29px 0 20px;
+  }
+
+  .how-it-works h1 {
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -1.3px;
+  }
+
+  .step-wise-process {
+    display: none;
+  }
+
+  .how-it-works-button button {
+    display: none;
+  }
+
+  .step-wise-process-mobile {
+    display: block;
+    margin-top: 12px;
+    padding: 13px 50px;
+    position: relative;
+  }
+
+  .process-step-slider-icons-mobile {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .mobile-step-with-img {
+    display: flex;
+    overflow-x: hidden;
+  }
+
+  .process-step-mobile-next,
+  .process-step-mobile-prev {
+    position: absolute;
+    top: 34%;
+    right: 0%;
+    width: 44px;
+    cursor: pointer;
+  }
+
+  .process-step-mobile-prev {
+    left: 0%;
+  }
+
+  .process-step-mobile {
+    min-width: 100%;
+    display: none;
+    animation-name: fade;
+    animation-duration: 0.6s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.6s;
+  }
+
+  .process-step-mobile img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 11px;
+  }
+
+  .process-step {
+    padding: 12px 20px;
+  }
+
+  .left-step-no h4 {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.6px;
+  }
+
+  .left-step-no h3 {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.8px;
+  }
+
+  .right-step-desc p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.7px;
+  }
+}
+
+@media (max-width: 550px) {
+  .how-it-works {
+    padding: 22px 0 13px;
+  }
+
+  .how-it-works h1 {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+  }
+
+  .step-wise-process-mobile {
+    padding: 13px 15px;
+  }
+
+  .process-step-slider-icons-mobile {
+    margin-top: 16px;
+  }
+
+  .process-step {
+    padding: 8px 10px;
+    width: 100%;
+  }
+
+  .right-step-desc p {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.56px;
+  }
+}
+
+/* Why UpTodd? The UpTodd Difference  */
+/* section-1  */
+
+.why-uptodd {
+  width: 100%;
+  padding: 74px 10.2% 60px;
+  background: #f5eae2;
+}
+
+.why-uptodd h1 {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -1.6px;
+}
+
+.why-uptodd-usps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.why-uptodd h5 {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.8px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+.usp-card {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 6px 0 rgb(0 0 0 / 0.06);
+  display: flex;
+  width: 45%;
+  margin: 0.5rem;
+  align-items: center;
+  padding: 25px;
+}
+
+.usp-card img {
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.usp-card h3 {
+  color: var(--Primary-Font, #002863);
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.88px;
+}
+
+.usp-card p {
+  color: #5c6a7e;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.56px;
+  margin-top: 6px;
+}
+
+@media (max-width: 1150px) {
+  .why-uptodd {
+    padding: 74px 5% 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .why-uptodd-usps {
+    grid-gap: 22px 35px;
+  }
+
+  .usp-card {
+    padding: 18px;
+  }
+
+  .usp-card img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .usp-card h3 {
+    font-size: 18px;
+  }
+
+  .usp-card p {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.53px;
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 750px) {
+  .why-uptodd {
+    padding: 30px 15px 3, 5px;
+  }
+
+  .usp-card {
+    width: 100%;
+  }
+
+  .start-now-banner h3 {
+    width: 100%;
+    margin: 0;
+  }
+  .text-black {
+    color: black;
+  }
+  .access-button {
+    background-color: #ff5766;
+    color: white;
+    font-family: "DM Sans";
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+  }
+  .button-center {
+    display: flex;
+    justify-content: center;
+  }
+  .button-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .access-button:hover {
+    box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+  }
+
+  .how-it-works h1 {
+    color: var(--Primary-Font, #002863);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1.6px;
+  }
+
+  .a-btn {
+    width: 250px;
+    height: 54px;
+    border-radius: 8px;
+    background: #ff5766;
+    color: #fff;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    border: none;
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .a-btn {
+    margin-top: 0;
+  }
+
+  .how-it-works h1 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .start-now-banner .h3-heading {
+    margin: 0;
+    width: 100%;
+  }
+  .why-uptodd-usps {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .why-uptodd h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .why-uptodd h5 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .slider-round-circle {
+    height: 12px;
+    width: 12px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .active-slider-round-circle {
+    background-color: #555; /* Active dot color */
+  }
+}
+
+@media (max-width: 550px) {
+  .why-uptodd h1 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+  }
+
+  .why-uptodd h5 {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+    margin-top: 10px;
+  }
+
+  .usp-card {
+    padding: 18px;
+  }
+
+  .usp-card img {
+    width: 67px;
+    height: 67px;
+    margin-right: 15px;
+  }
+
+  .usp-card h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .usp-card p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+/* Banne-2 */
+
+.start-now-banner {
+  background: #5a40c4;
+  padding: 48px 14%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.start-now-banner .h3-heading {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.8px;
+  margin-right: 2.5rem;
+}
+
+@media (max-width: 1150px) {
+  .start-now-banner {
+    padding: 48px 8%;
+  }
+}
+
+@media (max-width: 750px) {
+  .start-now-banner {
+    flex-wrap: wrap;
+  }
+
+  .start-now-banner h3 {
+    width: 100%;
+  }
+
+  .start-now-banner .h3-heading {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .start-now-banner button {
+    margin-top: 34px;
+  }
+}
+
+@media (max-width: 550px) {
+  .start-now-banner {
+    padding: 30px 8%;
+  }
+
+  .start-now-banner h3 {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.72px;
+  }
+
+  .start-now-banner button {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.72px;
+  }
+}
+
+/* Bending line */
+
+.dividing-curly-svg {
+  text-align: center;
+  background: #fffbfb;
+}
+
+/* Your Child’s Peronalized Journey begins here: From enrollment to Thriving */
+
+.personalise-journey {
+  width: 100%;
+  padding: 25px 0 33px;
+  background: #f5eae2;
+}
+
+.personalise-journey h1,
+.personalise-journey h1 span {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -1.2px;
+  padding: 0 30px;
+}
+
+.personalise-journey h1 span {
+  font-weight: 400;
+  padding: 0;
+}
+
+.journey-step-list {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  margin-top: 10px;
+}
+
+.journey-card {
+  padding: 35px 42px;
+  width: 33%;
+  margin-left: 13px;
+  border-radius: 12px;
+  background: #fff;
+  position: relative;
+}
+
+.journey-card:first-of-type {
+  margin-left: 0;
+}
+
+.journey-card h3,
+.journey-card h3 span {
+  color: var(--Primary-Font, #002863);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.64px;
+}
+
+.journey-card h3 span {
+  font-weight: 400;
+}
+
+.right-pointing-arrow-svg {
+  position: absolute;
+  right: -10%;
+  top: 30%;
+  z-index: 1;
+}
+
+.bottom-pointing-arrow-svg {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .journey-step-list {
+    width: 95%;
+  }
+}
+
+@media (max-width: 900px) {
+  .journey-card {
+    padding: 20px 24px;
+  }
+}
+
+@media (max-width: 750px) {
+  .personalise-journey h1,
+  .personalise-journey h1 span {
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  .right-pointing-arrow-svg {
+    display: none;
+  }
+
+  .journey-step-list {
+    width: 100%;
+    margin-top: 23px;
+    padding: 0 27px;
+    flex-wrap: wrap;
+  }
+
+  .journey-card {
+    min-height: 100px;
+    padding: 12px 25px 20px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 14px;
+  }
+
+  .journey-card:first-of-type {
+    margin-top: 0;
+  }
+
+  .bottom-pointing-arrow-svg {
+    display: block;
+    position: absolute;
+    left: 46%;
+    bottom: -26%;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 450px) {
+  .personalise-journey h1,
+  .personalise-journey h1 span {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+  }
+}
+
+/* Meet our Mentors & Curators | 100+ Curators R&D Team */
+
+.our-mentors {
+  width: 100%;
+  padding: 38px 0 65px;
+  background: #fffbfb;
+}
+
+.our-mentors h1,
+.our-mentors h1 span {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -1.44px;
+  padding: 0 30px;
+}
+
+.our-mentors h1 span {
+  font-weight: 400;
+  padding: 0;
+}
+
+.mentors-list {
+  margin: auto;
+  margin-top: 38px;
+  display: flex;
+  width: 82%;
+  overflow: hidden; /* Hide the scrollbar */
+  margin-bottom: 79px;
+  position: relative;
+}
+
+.mentors-list-inner {
+  display: flex;
+  animation: scroll-loop 30s linear infinite; /* Controls the speed and looping */
+}
+
+.mentor-card {
+  border-radius: 12px;
+  border: 1px solid #d9d9d9;
+  min-width: 205px;
+  text-align: center;
+  padding: 23px 19px 36px;
+  margin-left: 23px;
+  margin-bottom: 20px;
+  flex-shrink: 0; /* Prevents cards from shrinking */
+}
+
+.mentor-card:first-of-type {
+  margin-left: 0;
+}
+
+.mentor-card img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Keyframes for infinite scrolling */
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Start from the beginning */
+  }
+  100% {
+    transform: translateX(-100%); /* End at the last card, then loop */
+  }
+}
+
+.mentor-card h3,
+.mentor-card h3 span {
+  color: #000;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.64px;
+}
+
+.mentor-card h3 span {
+  font-weight: 400;
+}
+
+.featured-in {
+  margin: auto;
+  margin-top: 24px;
+  width: 70%;
+}
+
+.featured-in img {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .our-mentors h1,
+  .our-mentors h1 span {
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  .mentors-list {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 4rem;
+  }
+
+  .mentors-list-inner {
+    animation-duration: 80s; /* Slow down scrolling on mobile for better experience */
+  }
+
+  .featured-in {
+    margin: auto;
+    margin-top: 24px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  .our-mentors h1,
+  .our-mentors h1 span {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+  }
+
+  .mentors-list {
+    margin-bottom: 35px;
+  }
+}
+
+/* Your Frequently Asked Questions */
+#faqs {
+  width: 100%;
+  padding: 53px 0 81px;
+  background: #f5f5f5;
+}
+
+#faqs h1 {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -1.44px;
+}
+
+#faq-list {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#faq-category-list {
+  margin-bottom: 45px;
+}
+
+.faq-category-button {
+  border-radius: 8px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.64px;
+  padding: 13px 17px;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.faq-category-button:hover {
+  box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+}
+
+.faq-category-button:first-of-type {
+  margin-left: 0;
+}
+
+.active-faq-category {
+  background: #ff3f4e;
+  color: #fff;
+}
+
+.faq-card {
+  border-radius: 12px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  width: 100%;
+  padding: 22px 35px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.programFaq {
+  display: block;
+}
+
+.faq-card:first-of-type {
+  margin: 0;
+}
+
+.faq-card h3 {
+  color: var(--Primary-Font, #002863);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.8px;
+}
+
+.faq-card p {
+  color: #596b86;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8px;
+  margin-top: 22px;
+  display: none;
+  animation-name: fade;
+  animation-duration: 0.6s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.6s;
+}
+
+.faq-active-card {
+  border: 1px solid #ff3f4e;
+}
+
+.faq-active-card p {
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  #faq-list {
+    width: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  #faqs {
+    padding: 40px 0 50px;
+  }
+
+  #faq-list {
+    width: 100%;
+    padding: 0 21px;
+    margin-top: 39px;
+  }
+
+  #faq-category-list {
+    margin-bottom: 18px;
+    overflow-x: scroll;
+    display: flex;
+  }
+
+  #faq-category-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .faq-category-button {
+    min-width: 120px;
+  }
+
+  #faqs h1 {
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  .faq-card {
+    padding: 18px 25px;
+    margin-top: 11px;
+  }
+
+  .faq-card h3 {
+    font-size: 18px;
+    letter-spacing: -0.64px;
+  }
+
+  .faq-card p {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.65px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  #faqs h1 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+  }
+
+  .faq-card {
+    padding: 15px 22px;
+  }
+
+  .faq-card h3 {
+    font-size: 16px;
+  }
+
+  .faq-card p {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.56px;
+    margin-top: 6px;
+  }
+}
+
+/* Footer */
+.plain-footer {
+  width: 100%;
+  padding: 53px 80px 31px;
+  background: #5a40c4;
+  color: white;
+}
+
+.plain-footer h1 {
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: -0.6px;
+}
+
+.plain-footer p,
+.plain-footer h5 {
+  font-family: "DM Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+}
+
+.plain-footer h5 {
+  position: relative;
+  font-style: italic;
+  font-size: 19px;
+}
+
+.plain-footer span {
+  position: absolute;
+  right: 0;
+  bottom: -25px;
+}
+
+.plain-footer svg {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.plain-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plain-footer-bottom h3,
+.plain-footer-bottom h3 span {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
+
+.plain-footer-bottom h3 b {
+  color: red;
+}
+
+@media (max-width: 750px) {
+  .plain-footer {
+    padding: 53px 30px;
+  }
+
+  .plain-footer-bottom {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .plain-footer-bottom h3 {
+    width: 100%;
+  }
+
+  .plain-footer-bottom h3:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  #faq-category-list {
+    margin-bottom: 1.1rem;
+    overflow-x: scroll;
+    display: flex;
+  }
+
+  #faq-category-list::-webkit-scrollbar {
+    background: transparent;
+  }
+}
+
+/* for mobile scrolling */
+
+@media (max-width: 767px) {
+  /* Hide scrollbar on mobile devices but allow scrolling */
+  body,
+  html {
+    overflow: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE and Edge */
+  }
+
+  /* Hide scroll bar for Webkit browsers (Chrome, Safari, Edge) */
+  body::-webkit-scrollbar,
+  html::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.access-button {
+  background-color: #ff5766;
+  color: white;
+  font-family: "DM Sans";
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+.access-button:hover {
+  box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.a-btn {
+  width: 250px;
+  height: 54px;
+  border-radius: 8px;
+  background: #ff5766;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  border: none;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.btn-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}

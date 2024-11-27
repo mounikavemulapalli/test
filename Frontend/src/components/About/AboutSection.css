@@ -1,0 +1,384 @@
+/* AboutSection.css */
+
+* {
+  box-sizing: border-box;
+}
+
+article {
+  font-family: DM Sans;
+}
+.aboutus-container {
+  padding: 63px 0 40px 0;
+  background: #fff;
+}
+
+.focussection {
+    background: linear-gradient(0deg, #4b5adb 0%, #5a40c4 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center; /* Center text */
+    overflow: hidden; /* Hide overflow */
+}
+
+.focussection h1 {
+  color: var(--US-White, #fff);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -1.44px;
+    width: 54%;
+    margin: auto;
+}
+
+.ourgoalsection {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 0 auto;
+}
+
+.ourgoalsection p {
+  color: var(--Primary-Font, #002863);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -.96px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.imagecontainer .main-image {
+  max-width: 100%;
+  height: auto;
+}
+.main-image,
+.additional-image {
+  max-width: 100%;
+  height: auto;
+  padding: 3rem;
+}
+.ourstorysection,
+.others {
+  position: relative; /* Relative positioning to place background images inside */
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.ourstory-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.text {
+  z-index: 2; /* Ensures text appears above background images */
+  position: relative;
+  padding: 20px;
+}
+
+.text h2 {
+  color: var(--Primary-Font, #002863);
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -1.2px;
+  margin-bottom: 30px;
+}
+
+.text h3 {
+  color: var(--Primary-Font, #002863);
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -.96px;
+    margin-bottom: 30px;
+}
+
+.text h4{
+  color: var(--Primary-Font, #002863);
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -.8px;
+    margin-bottom: 25px;
+}
+
+.text p{
+  color: var(--Primary-Font, #002863);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -.64px;
+  margin-bottom: 20px;
+}
+
+.ourstorysection p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #333; /* Darker text color for better readability */
+}
+/* Image section styling */
+.journey-background-img {
+  position: absolute;
+  width: 80px; /* Small width */
+  height: 80px; /* Small height */
+  z-index: 1;
+  background-size: cover; /* Ensure the image covers the area */
+  background-position: center;
+}
+.journey-background-img1 {
+  position: absolute;
+  z-index: 2;
+}
+.journey-background-img3 {
+  z-index: 2;
+  left: auto;
+  right: 5px;
+  position: absolute;
+}
+.journey-background-img2 {
+  z-index: 2;
+  position: absolute;
+}
+.journey-bg-img2 {
+  z-index: 2;
+  position: absolute;
+  left: auto;
+  right: 5px;
+  bottom: 10px;
+}
+.journey-background-img4 {
+  z-index: 2;
+  left: auto;
+  right: 5px;
+  position: absolute;
+  bottom: 10px;
+}
+.others {
+  line-height: 1.4;
+  margin: 10px 0;
+  padding-left: 60px;
+}
+
+/* Responsive Design */
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo-text {
+    margin-right: 0;
+  }
+
+  .the-text,
+  .Entre-text,
+  .network-text {
+    font-size: 16px;
+    margin-right: 0;
+  }
+
+  .home-container {
+    padding: 20px 5px;
+    margin: 0 2vw;
+    max-width: 95%;
+    clip-path: none;
+    text-align: center;
+  }
+
+  .description-text {
+    font-size: 14px;
+  }
+
+  .who-are-we-title {
+    font-size: 24px;
+  }
+
+  .who-are-we-description {
+    font-size: 16px;
+  }
+
+  .read-more-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .overlay-text,
+  .subtext-overlay {
+    font-size: 2rem;
+  }
+
+  .testimonals-container img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .split-text {
+    font-size: 1rem;
+  }
+
+  .about-us {
+    margin: 10px auto;
+    padding: 20px 40px 20px 20px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .logo-text {
+    margin-right: 40px;
+  }
+
+  .the-text,
+  .Entre-text,
+  .network-text {
+    font-size: 20px;
+  }
+
+  .home-container {
+    padding: 30px 8px;
+    margin: 0 4vw;
+    max-width: 90%;
+  }
+
+  .description-text {
+    font-size: 16px;
+  }
+
+  .who-are-we-title {
+    font-size: 28px;
+  }
+
+  .who-are-we-description {
+    font-size: 18px;
+  }
+
+  .read-more-button {
+    font-size: 16px;
+  }
+
+  .overlay-text,
+  .subtext-overlay {
+    font-size: 3rem;
+  }
+
+  .testimonals-container img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .split-text {
+    font-size: 1.2rem;
+  }
+  
+}
+
+/* Desktops (1025px and above) */
+@media (min-width: 1025px) {
+  .navbar {
+    padding: 20px 50px;
+  }
+
+  .nav-links {
+    gap: 30px;
+  }
+
+  .logo-text {
+    margin-right: 100px;
+  }
+
+  .the-text,
+  .Entre-text,
+  .network-text {
+    font-size: 24px;
+  }
+
+  .home-container {
+    padding: 40px 10px;
+    margin: 0 3vw;
+    max-width: 90%;
+  }
+
+  .description-text {
+    font-size: 18px;
+  }
+
+  .who-are-we-title {
+    font-size: 32px;
+  }
+
+  .who-are-we-description {
+    font-size: 20px;
+  }
+
+  .read-more-button {
+    font-size: 18px;
+  }
+
+  .overlay-text,
+  .subtext-overlay {
+    font-size: 4rem;
+  }
+
+  .testimonals-container img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .split-text {
+    font-size: 1.5rem;
+  }
+}
